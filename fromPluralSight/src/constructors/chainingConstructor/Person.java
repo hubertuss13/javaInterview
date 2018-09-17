@@ -18,4 +18,11 @@ public class Person {
         this(name);
         this.age = age;
     }
+
+    public static void main(String[] args) {
+
+        Person p1 = new Person("Maniek", 12);
+        System.out.println(p1.name + " " + p1.age);
+
+    }
 }
